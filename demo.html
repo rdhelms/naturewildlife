@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example website</title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            padding: 0 10px;
+            background-color: #efefef;
+        }
+
+        h1 {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        p {
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 6px;
+            font-size: 16px;
+            background-color: blue;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a basic website</h1>
+    <p>This is a paragraph</p>
+    <p>This is another paragraph</p>
+
+    <button onclick="buttonClicked()">This is a button</button>
+
+    <script>
+        function buttonClicked() {
+            alert('Button clicked');
+        }
+    </script>
+</body>
+</html>
